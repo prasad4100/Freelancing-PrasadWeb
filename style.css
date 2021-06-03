@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	background: linear-gradient(to right, rgb(217, 83, 38), rgb(176, 162, 79));
+}
+h1{
+    font-size: 50px; 
+    
+    padding: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: beige;
+}
+button{
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: firebrick;
+    color: beige;
+    display: inline;
+    padding: 15px 40px;
+    width: 10%;
+    font-size: 18px;
+    text-align: center;
+}
+#userinput{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+button:hover{
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+li{
+    margin-left: 30px;
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+    line-height: 30px;
+}
+@media(max-width: 768px){
+    
+    button{
+        margin-top: 7px;
+        display: block;
+        width:50%;
+    }
+}
